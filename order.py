@@ -141,7 +141,7 @@ def ask(prompt, default=None):
 
 def collect_user_info():
     print("\n=== Your delivery details ===\n")
-    title_raw = ask("Title (Monsieur/Madame)", "Monsieur")
+    title_raw = ask("Title (Monsieur/Madame)")
     first = ask("First name")
     last = ask("Last name")
     street = ask("Street + number")
